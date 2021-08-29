@@ -1,0 +1,92 @@
+body {
+  text-align: center;
+  font-family: Poppins, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+html {
+  font-size: 60.25%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: #4070f4;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  line-height: 1.5;
+  margin: 3rem 0;
+  
+}
+
+h3 {
+  font-size: 2.5rem;
+  text-align: left;
+  margin: 2rem 0;
+}
+
+h4 {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin: 0 2rem;
+  font-weight: 500;
+}
+
+p {
+  font-size: 1.6rem;
+  text-align: left;
+}
+
+article {
+  display: flex;
+  margin-top: 20rem;
+  width: 15rem;
+  justify-content: space-between;
+}
+
+article img{
+  width: 3rem;
+  height: 3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 50%;
+  }
+
+  p {
+    font-size: 2.3rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
+    p, h1, h2, h3, h4 {
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+

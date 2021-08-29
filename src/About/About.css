@@ -1,0 +1,32 @@
+.About {
+  padding: 10rem 0;
+}
+
+.Profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Profile img {
+  width: 40rem;
+  border-radius: 1rem;
+  margin: 2rem 10rem;
+}
+
+.Intro {
+  width: 50rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Profile img {
+    width: 30rem;
+    margin: 2rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Profile {
+      flex-direction: column;
+  }
+}

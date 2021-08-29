@@ -1,0 +1,106 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: left;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+.Info svg {
+  color: #000;
+  transition: all 0.2s ease-in;
+}
+
+.Home img {
+  width: 60rem;
+}
+
+.Info svg:hover {
+  color: #4070f4;
+}
+
+.Info {
+  width: 60rem;
+  position: relative;
+}
+
+.Info h1 {
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.Info h1 p {
+  font-size: 6rem;
+  text-align: left;
+}
+
+.Info h1:nth-child(3) {
+  margin-bottom: 5rem;
+}
+
+.Info h1 span {
+  color: #4070f4;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Home {
+    padding: 0 2rem;
+  }
+  .Home img {
+    width: 40rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Home {
+    flex-direction: column;
+    padding-top: 9rem;
+  }
+  .Home article {
+    flex-direction: column;
+    margin-top: 20rem;
+    width: 4rem;
+    justify-content: space-between;
+  }
+
+  .Info svg {
+    width: 4rem;
+    margin: 2rem 0;
+  }
+
+  .Home img {
+    position: absolute;
+    width: 50rem;
+    top: 55%;
+    right: 0;
+  }
+
+  .Info {
+    width: 90%;
+  }
+
+  .Info p, .Info h1 {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Home img {
+      width: 60rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+    .Home img {
+        width: 50rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+  .Home img {
+      width: 35rem;
+      right: 5vw;
+  }
+}

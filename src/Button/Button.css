@@ -1,0 +1,19 @@
+.Button {
+    padding: 1.5rem 4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: .7rem;
+    background: #4070f4;
+    transition: all .2s;
+}
+
+.Button:hover {
+    box-shadow: 0 .5rem 1rem rgba(64, 112, 244, .5);
+}
+
+@media only screen and (max-width: 900px) {
+    .Button {
+        font-size: 2.3rem;
+    }
+}

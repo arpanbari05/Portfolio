@@ -1,0 +1,22 @@
+.NavToggler {
+  display: flex;
+  width: 6rem;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavToggler span {
+  display: block;
+  width: 90%;
+  height: 3px;
+  background-color: #000;
+  margin: 0.5rem 0;
+}
+
+@media only screen and (min-width: 600px) {
+  .NavToggler {
+    display: none;
+  }
+}

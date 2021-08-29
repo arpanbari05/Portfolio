@@ -1,0 +1,27 @@
+.SkillItem {
+    width: 100%;
+    box-shadow: 0 4px 2.5rem rgba(0,0,0, .15);
+    border-radius: 5px;
+    margin: 3rem 0;
+}
+
+.SkillItem figure {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+}
+
+.SkillItem figure h4:nth-child(3) {
+    margin-left: auto;
+}
+
+svg {
+    width: 3rem;
+    color: #4070f4;
+}
+
+.SkillItem .Percentage {
+    height: 5px;
+    background-color: #4070f4;
+    border-radius: 0 5px 5px 0;
+}

@@ -1,0 +1,16 @@
+.Contact {
+    width: 40rem;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.Contact input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #777;
+    display: block;
+    font-size: 2rem;
+    margin: 4rem 0;
+}
